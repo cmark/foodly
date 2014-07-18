@@ -29,6 +29,9 @@ app.configure('production', function(){
 	app.use(middleware.serveMaster.production());
 });
 
+//api endpoinds
+require('./source/api/menus')(app);
+
 http.createServer(app).listen(app.get('port'), function(){
 	var environment = process.env.NODE_ENV || 'development';
 	console.log('Foodly started: ' + app.get('port') + ' (' + environment + ')');

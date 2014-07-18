@@ -19,11 +19,11 @@ function hander(title, mainJs, mainCss) {
 
 module.exports = {
 	development: function () {
-		return hander('Foodly | Development', '/js/main.js', '/css/main.css');
+		return hander('Foodly | Dev', '/js/main.js', '/css/main.css');
 	},
 
 	production: function() {
-		return hander('Foodly | Production', '/js/main.js', '/css/main.css');
+		return hander('Foodly', '/js/main.js', '/css/main.css');
 		// change to a compiled js and css file
 //		return hander('Foodly | Production', client.js, client.css);
 	} 

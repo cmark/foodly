@@ -4,11 +4,16 @@ define(function(require) {
 
 	var Router = Backbone.Router.extend({
 		routes: {
-			'': 'home'
+			'': 'home',
+			'menus': 'menus'
 		},
 
 		home: function () {
 			require('./../apps/home/app').run(viewManager);
+		},
+		
+		menus: function() {
+			require('./../apps/menus/app').run(viewManager);
 		}
 	});
 
