@@ -1,3 +1,5 @@
+# Foodly Sample Single Page Web Application
+
 <a name="installation"/>
 ## Usage
 
@@ -24,3 +26,6 @@ Run app (development mode),
 ```
 $ node app.js
 ```
+## References
+
+We use the super awesome starter kit from: https://github.com/alexanderbeletsky/backbone-express-spa 
