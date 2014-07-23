@@ -4,7 +4,7 @@
 Clone github repository,
 
 ```
-$ git clone git@github.com:alexanderbeletsky/backbone-express-spa.git
+$ git clone git@github.com:CMark/foodly.git
 ```
 
 Install npm dependencies,
